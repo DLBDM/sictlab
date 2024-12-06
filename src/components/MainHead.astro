@@ -1,0 +1,16 @@
+---
+import '../styles/layout.scss';			// 导入布局样式
+import '../styles/global.scss';			// 导入全局样式
+interface Props {						// 定义MainHead组件的 props 接口
+	title?: string | undefined;			// 页面标题
+	description?: string | undefined;	// 页面描述
+	keywords?: string | undefined;		// 页面关键词
+}
+const { title, description,keywords } = Astro.props;	// 解析传递给该组件的props接口数据
+---
+
+<meta charset="UTF-8" />		<!-- 设置页面字符编码为 UTF-8，告诉浏览器使用utf8来解析该页面中的字符 -->
+<meta name="description" property="og:description" content={description} />		<!-- 设置页面描述，搜索引擎结果页面下方的页面摘要部分 -->
+<meta name="keywords" content={keywords} />										<!-- 设置页面关键词， -->
+<link rel="sitemap" href="/sitemap-index.xml" />								<!-- 站点地图的文件路径 -->
+<link rel="alternate" type="application/rss+xml" title={title} href={new URL("rss.xml", Astro.site)} />		<!-- 设置 RSS 提要的链接 -->

@@ -1,0 +1,321 @@
+---
+import { Image } from 'astro:assets';
+import BlogPostLayout from "../layouts/BlogPostLayout.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import CallToAction from "../components/CallToAction.astro";
+import {pageTag, pageDescription,aboutTdk} from '../data/content';
+import myPortrait from "../assets/portrait.jpg";
+
+
+import { team } from '../data/team.js';
+import MemberCard from '../components/MemberCard.astro';
+
+const importantTeam = team.filter(member => member.type === 'important');
+const masterTeam = team.filter(member => member.type === 'master');
+const doctorTeam = team.filter(member => member.type === 'doctor');
+---
+<BlogPostLayout
+	title={aboutTdk.title || ''}
+	description = {aboutTdk.description || ''}
+	keywords = {aboutTdk.keywords || ''}
+>
+
+	<div class="post">
+		<main class="post-wrapper about">
+
+			<div class="contact-container">
+				<h2 class="contact-title">团队成员</h2>
+				<hr class="contact-line">
+				<h3 class="contact-subtitle">TEAM MEMBERS</h3>
+			  </div>
+            
+
+              <div class="profile-container">
+                <img src="/assets/team/yzy.jpg" alt="icon" class="photo">
+                <div class="description">
+                    <div class="name-remark">
+                        <div class="name">
+                            <div class="chinese">
+                                尹震宇
+                            </div>
+                            <div class="english">
+                                /ZHENYU YIN
+                            </div>
+                        </div>
+
+                        <div class="remark"></div>
+                    </div>
+                    <div class="title">研究员、博士生导师</div>
+                    <div class="details">尹震宇，研究员，深圳市海外高层次人才，香港中文大学07级物理哲学博士，2012~0016年密苏里科技大学访问学者。2016年9月入职深圳大学。兼任美国物理学会（APS）审稿人，美国光学学会（OSA）审稿人。主要研究方向包括电磁波与功能性材料相互作用的理论计算和数值分析实验，以及等效介质理论的第一性原理的研究。</div>
+                    <a href="/team/yzy-resume">
+                        <button class="button">查看更多</button>
+                    </a>
+                </div>
+            </div>
+
+              <div class="divider-container">
+                <div class="divider-title">骨干成员</div>
+                <div class="divider-line"></div>
+              </div>
+
+
+              <div class="cards-container">
+                {importantTeam.map(member => (
+                  <MemberCard member={member} key={member.id} />
+                ))}
+              </div>
+
+              <div class="divider-container">
+                <div class="divider-title">博士研究生</div>
+                <div class="divider-line"></div>
+              </div>
+
+
+              <div class="cards-container">
+                {doctorTeam.map(member => (
+                  <MemberCard member={member} key={member.id} />
+                ))}
+              </div>
+
+              <div class="divider-container">
+                <div class="divider-title">硕士研究生</div>
+                <div class="divider-line"></div>
+              </div>
+
+
+              <div class="cards-container">
+                {masterTeam.map(member => (
+                  <MemberCard member={member} key={member.id} />
+                ))}
+              </div>
+
+		</main>
+	</div>
+</BlogPostLayout>
+
+<style>
+  .post-wrapper {
+    display: flex;
+    flex-direction: column;  /* 纵向排列子元素 */
+    align-items: center;     /* 如果需要将内容水平居中 */
+
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  /* 容器的高度，可以根据需要调整 */
+    text-align: center;  /* 文字居中对齐 */
+  }
+
+  .contact-title {
+    font-size: 34px;  /* "联系我们" 字体大小 */
+    margin: 0;  /* 去除默认 margin */
+	color: rgba(0, 99, 155, 1);
+	letter-spacing: 5px;
+  }
+
+  .contact-line {
+    width: 75%;  /* 横线的宽度 */
+    border: none;
+    border-top: 2px solid rgba(0, 99, 155, 1);  /* 设置横线的颜色和粗细 */
+    margin: 10px 0;  /* 横线上下的间距 */
+	margin-top:18px;
+	margin-bottom:18px;
+  }
+
+  .contact-subtitle {
+    font-size: 18px;  /* "CONTACT US" 字体大小 */
+    margin: 0;  /* 去除默认 margin */
+	color: rgba(0, 0, 0, 0.3);
+  }
+
+
+
+
+
+  .profile-container {
+            display: flex;
+            align-items: flex-start;
+            padding: 0px; /* 添加内部填充以防止内容贴近边缘 */
+            background-color: #ffffff; /* 白色背景 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 在四周添加阴影 */
+            border-radius: 8px; /* 轻微的圆角边 */
+            margin: 0px; /* 外部间距 */
+        }
+
+        @media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column; /* 纵向排列 */
+        align-items: center; /* 可选：居中对齐子元素 */
+        padding: 16px; /* 可选：增加内边距以改善移动端显示 */
+    }
+}
+
+        .photo {
+            width: 300px; /* 固定宽度 */
+
+            margin-right: 20px; /* 与右侧元素的间距 */
+            background-size: cover;
+            background-position: center;
+            object-fit: contain; /* 保持图片的比例 */
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        .description {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            padding:40px;
+            
+        }
+        
+        .name-remark {
+    display: flex;
+    justify-content: center; /* 改为flex-start，让元素从左侧开始排列 */
+    margin-bottom: 5px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    white-space:nowrap;
+    
+}
+
+.chinese{
+    font-size: 30px;
+    font-weight: bold;
+}
+.english{
+
+    
+    font-size: 30px;
+    font-weight: bold;
+    color: #666666; /* 段落文字颜色 */
+}
+.remark {
+    margin-left: 20px; /* 根据需要调整这个值来控制间距 */
+}
+        .title{
+            color: #666666; /* 段落文字颜色 */
+            font-size: 16px; /* 段落文字大小 */
+            margin-bottom: 10px; /* 段落之间的间距 */
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;  /* 内容靠左对齐 */
+        }
+        .details {
+    color: #666666; /* 段落文字颜色 */
+    font-size: 16px; /* 段落文字大小 */
+    margin-bottom: 10px; /* 段落之间的间距 */
+    padding-bottom: 20px;
+    
+    /* 默认情况下显示全部文本 */
+    display: block;
+}
+
+/* 移动设备（例如，屏幕宽度小于或等于768px）上应用省略号效果 */
+@media (max-width: 1200px) {
+    .details {
+        display: -webkit-box; /* 使用弹性盒模型 */
+        -webkit-line-clamp: 3; /* 显示3行文本 */
+        -webkit-box-orient: vertical; /* 垂直排列 */
+        overflow: hidden; /* 隐藏超出部分 */
+        margin-bottom: 30px;
+        /* 可选：为省略号添加渐变遮罩效果 */
+        position: relative;
+    }
+    
+    /* 可选：添加渐变遮罩以增强视觉效果 */
+    @media (max-width: 1200px) {
+        .details::after {
+            content: '';
+            text-align: right;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 1.2em; /* 与行高匹配 */
+            background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+        }
+    }
+}
+
+
+    .button {
+    width: 120px;
+    height: 35px;
+    padding: 0px;
+    background-color: white; /* 白色填充 */
+    color: rgba(0, 99, 155, 1); /* 黑色字体 */
+    border: 1px solid rgba(0, 99, 155, 1); /* 黑色描边 */
+    cursor: pointer;
+    margin: 0 auto; /* 水平居中 */
+    border-radius: 6px; /* 圆角效果 */
+    display: block; /* 使 margin:auto 生效，实现水平居中 */
+    
+}
+
+.button:hover {
+    background-color: rgba(0, 99, 155, 1); /* 悬浮时的填充色 */
+    color: white; /* 悬浮时的字体色 */
+    border: 1px solid rgba(0, 99, 155, 1); /* 悬浮时的描边色 */
+    box-shadow: 0 0 8px rgba(0, 99, 155, 0.6); /* 添加发光效果 */
+}
+
+
+
+
+
+
+    /* 设置外围 div 的样式，包括居中和间距 */
+    .divider-container {
+  text-align: left;  /* 内容靠左对齐 */
+  margin: 20px 0; /* 仅保留上下的间距 */
+  width: 100%; /* 宽度根据需要调整 */
+  margin-top: 40px;
+}
+
+    /* 设置标题样式 */
+    .divider-title {
+      font-size: 24px;  /* "联系我们" 字体大小 */
+    margin: 0;  /* 去除默认 margin */
+	color: rgba(0, 99, 155, 1);
+	letter-spacing: 0px;
+    font-weight: bold;
+    }
+
+    /* 设置水平线样式 */
+    /* 设置水平线的样式，包括渐变效果 */
+    .divider-line {
+  height: 1px;
+  background: linear-gradient(to right, rgba(0, 99, 155, 0.5) 0%, white 100%);
+}
+
+
+
+.cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      .cards-container {
+        
+        align-items: center;
+      }
+    }
+
+    a {
+    text-decoration: none; /* Remove underline from links */
+  }
+</style>
+
+

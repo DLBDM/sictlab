@@ -1,0 +1,52 @@
+---
+// Component Imports
+import MainHead from '../components/MainHead.astro';			// 导入MainHead组件，页面的基础设置、标题、描述、关键字、图标、主题色
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+interface Props {												// 定义BaseLayout组件的 props 接口
+	title?: string | undefined;									// 页面标题
+	description?: string | undefined;							// 页面描述
+	keywords?: string | undefined;								// 页面关键词
+}
+const { title, description,keywords } = Astro.props;			// 解析传递给该组件的props接口数据
+---
+<html lang=en>
+	<head>
+		<!-- MainHead组件，页面的基础设置、标题、描述、关键字、图标、主题色 -->
+		<MainHead title={title} description={description}  keywords={keywords} />		
+	</head>
+	<body class="_body">
+		<div class="">
+			<!-- 导航栏 -->
+			<Nav/>
+			<slot />
+			<!-- 页面底部:权利声明 -->
+			<Footer />
+		</div>
+
+		<script>
+			// Add “loaded” class once the document has completely loaded.
+			addEventListener('load', () => document.documentElement.classList.add('loaded'));
+		</script>
+
+		<style>
+			:root {
+				--bg-svg-blend-mode: overlay;
+				--bg-blend-mode: darken;
+			}
+			:root.theme-dark {
+				--bg-svg-blend-mode: darken;
+				--bg-blend-mode: lighten;
+			}
+			/* These backgrounds are displayed below the fold, so we lazy load them
+			   once the `.loaded` class has been set.  */
+			:root.loaded {
+
+			}
+			:root.loaded.theme-dark {
+
+			}
+
+		</style>
+	</body>
+</html>

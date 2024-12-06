@@ -1,0 +1,173 @@
+---
+import { projectItems } from "../data/project";
+import ProjectImage from "../components/ProjectImage.astro";
+
+// const reversedItems = projectItems.slice().reverse();
+const reversedItems = projectItems.slice().sort((a, b) => {
+  const dateA = new Date(a.date as string);  // 确保 a.date 是字符串类型，使用类型断言
+  const dateB = new Date(b.date as string);  // 确保 b.date 是字符串类型，使用类型断言
+  return dateB.getTime() - dateA.getTime();  // 按日期倒序排序
+});
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/projects/**/*.{jpeg,jpg,png,gif}",
+);
+---
+<!-- 项目列表渲染 -->
+{reversedItems.map((item) => (
+  <div class="activity-single">
+    <a href={item.detail} class="project-item border-bottom">
+      <div class="project-header">
+        <div class="project-title">
+          <h3>{item.title}</h3>
+          <div class="project-date">[{item.date}]</div>
+        </div>
+      </div>
+      {item.cover && (
+        <div class="project-body">
+          <div class="project-cover">
+            {item.cover.map((figure) => {
+              if (images[`/src/assets/projects/${figure}`]) {
+                // 检查图片是否存在
+                return (
+                  <div class="project-figure">
+                    <ProjectImage
+                      imagePath={`/src/assets/projects/${figure}`}
+                      altText="Loading"
+                    />
+                  </div>
+                );
+              } 
+              return null; // 添加 return null 以避免 undefined
+            })}
+          </div>
+        </div>
+      )}
+    </a>
+  </div>
+))}
+
+<style lang="scss">
+  /* 外层容器样式 */
+  .activity-single {
+    background-color: #ffffff; /* 背景色为白色 */
+    border: 1px solid #e0e0e0; /* 灰色边框 */
+    border-radius: 8px; /* 圆角效果 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+    margin-bottom: 16px; /* 外边距 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      background: rgba(0, 99, 155, 0.2); /* 背景色在悬停时变化 */
+    }
+  }
+
+  /* 项目项样式 */
+  .project {
+    &-item {
+      cursor: pointer;
+      display: block;
+      height: min-content;
+      padding: 24px;
+      position: relative;
+      text-decoration: none;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.25s ease-in-out;
+      color: #000; /* 设置默认文本颜色为黑色 */
+      
+
+      /* 确保子元素继承父元素的颜色 */
+      h3, .project-date {
+        color: inherit;
+      }
+    }
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+
+    &-title {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      h3 {
+        margin: 0;
+        font-size: 1.5em; /* 可根据需要调整标题大小 */
+      }
+
+      .project-date {
+        padding-top: 3px;
+        font-size: 1em;
+        color: #666;
+      }
+    }
+
+    &-body {
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
+    &-cover {
+      position: relative;
+      width: auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+    }
+
+    &-figure {
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      width: auto;
+      height: 128px;
+      margin: 0 6px;
+      display: inline-block;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+
+    &-date {
+      font-weight: 600;
+    }
+  }
+
+  /* 响应式样式 */
+  @media (max-width: 1000px) {
+    .project {
+      &-body {
+        height: 132px;
+      }
+
+      &-cover {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+
+      &-figure {
+        width: 180px;
+        height: 120px;
+      }
+    }
+  }
+</style>

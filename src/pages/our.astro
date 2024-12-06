@@ -1,0 +1,76 @@
+---
+import BlogPostLayout from "../layouts/BlogPostLayout.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import ProjectList from '../components/ProjectList.astro';
+import {pageTag, pageDescription,projectTdk} from '../data/content';
+
+---
+
+<BlogPostLayout
+		title={projectTdk.title || ''}
+		description = {projectTdk.description || ''}
+		keywords = {projectTdk.keywords || ''}
+>
+	<div class="post">
+		<main class="post-wrapper about">
+			<div class="contact-container">
+				<h2 class="contact-title">团队风采</h2>
+				<hr class="contact-line">
+				<h3 class="contact-subtitle">BEYOND CODE</h3>
+			  </div>
+
+			<section class="border-top">
+				<div class="posts">
+					<div class="posts-container">
+							<ProjectList  />
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</BlogPostLayout>
+
+
+<style>
+	.posts{
+		margin-top:0px;
+	}
+
+	.post-wrapper {
+    display: flex;
+    flex-direction: column;  /* 纵向排列子元素 */
+    align-items: center;     /* 如果需要将内容水平居中 */
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  /* 容器的高度，可以根据需要调整 */
+    text-align: center;  /* 文字居中对齐 */
+  }
+
+  .contact-title {
+    font-size: 34px;  /* "联系我们" 字体大小 */
+    margin: 0;  /* 去除默认 margin */
+	color: rgba(0, 99, 155, 1);
+	letter-spacing: 5px;
+  }
+
+  .contact-line {
+    width: 75%;  /* 横线的宽度 */
+    border: none;
+    border-top: 2px solid rgba(0, 99, 155, 1);  /* 设置横线的颜色和粗细 */
+    margin: 10px 0;  /* 横线上下的间距 */
+	margin-top:18px;
+	margin-bottom:18px;
+  }
+
+  .contact-subtitle {
+    font-size: 18px;  /* "CONTACT US" 字体大小 */
+    margin: 0;  /* 去除默认 margin */
+	color: rgba(0, 0, 0, 0.3);
+  }
+
+</style>

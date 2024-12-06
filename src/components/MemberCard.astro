@@ -1,0 +1,65 @@
+---
+// src/components/MemberCard.astro
+const { member } = Astro.props;
+---
+
+<div class="card">
+  <img src={member.url} alt={member.name} class="member-photo" />
+  <h3 class="member-name">{member.name}</h3>
+  <p class="member-type">{member.subtype}</p>
+  <hr class="divider" />
+  <p class="member-focus">{member.focus}</p>
+
+  <style>
+    .card {
+      flex: 1 1 200px;
+      max-width: 250px;
+      padding: 1rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      transition: transform 0.2s;
+      background-color: rgb(234, 245, 245);
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .member-photo {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1rem;
+    }
+
+    .member-name {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+      color: #333;
+    }
+
+    .member-type {
+      color: #555;
+      margin: 0.5rem 0;
+
+      text-align: center;
+    }
+
+    .divider {
+      margin: 1rem 0;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+
+    .member-focus {
+      color: #777;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</div>

@@ -1,0 +1,222 @@
+---
+import { Image } from 'astro:assets';
+import BlogPostLayout from "../layouts/BlogPostLayout.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import CallToAction from "../components/CallToAction.astro";
+import {pageTag, pageDescription,aboutTdk} from '../data/content';
+import myPortrait from "../assets/portrait.jpg";
+
+---
+<BlogPostLayout
+	title={aboutTdk.title || ''}
+	description = {aboutTdk.description || ''}
+	keywords = {aboutTdk.keywords || ''}
+>
+
+	<div class="post">
+		<main class="post-wrapper about">
+
+			<div class="contact-container">
+				<h2 class="contact-title">联系我们</h2>
+				<hr class="contact-line">
+				<h3 class="contact-subtitle">CONTACT US</h3>
+			  </div>
+
+			<div class="card-container">
+				<div class="card">
+				  <div class="card-content">
+					<img src="/assets/tel/telicon1.png" alt="icon" class="card-icon">
+					<h3 class="card-title">联系电话</h3>
+					<p class="card-description">13609823698(尹老师)</p>
+				  </div>
+				</div>
+				<div class="card">
+				  <div class="card-content">
+					<img src="/assets/tel/telicon2.png" alt="icon" class="card-icon">
+					<h3 class="card-title">邮箱</h3>
+					<p class="card-description">mycong@163.com</p>
+				  </div>
+				</div>
+				<div class="card">
+				  <div class="card-content">
+					<img src="/assets/tel/telicon3.png" alt="icon" class="card-icon">
+					<h3 class="card-title">邮编</h3>
+					<p class="card-description">110168</p>
+				  </div>
+				</div>
+				<div class="card">
+				  <div class="card-content">
+					<img src="/assets/tel/telicon4.png" alt="icon" class="card-icon">
+					<h3 class="card-title">地址</h3>
+					<p class="card-description">沈阳市浑南区南屏东路16号</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="map" id="map" ></div>
+		</main>
+	</div>
+</BlogPostLayout>
+
+<style>
+  .post-wrapper {
+    display: flex;
+    flex-direction: column;  /* 纵向排列子元素 */
+    align-items: center;     /* 如果需要将内容水平居中 */
+
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  /* 容器的高度，可以根据需要调整 */
+    text-align: center;  /* 文字居中对齐 */
+  }
+
+  .contact-title {
+    font-size: 34px;  /* "联系我们" 字体大小 */
+    margin: 0;  /* 去除默认 margin */
+	color: rgba(0, 99, 155, 1);
+	letter-spacing: 5px;
+  }
+
+  .contact-line {
+    width: 75%;  /* 横线的宽度 */
+    border: none;
+    border-top: 2px solid rgba(0, 99, 155, 1);  /* 设置横线的颜色和粗细 */
+    margin: 10px 0;  /* 横线上下的间距 */
+	margin-top:18px;
+	margin-bottom:18px;
+  }
+
+  .contact-subtitle {
+    font-size: 18px;  /* "CONTACT US" 字体大小 */
+    margin: 0;  /* 去除默认 margin */
+	color: rgba(0, 0, 0, 0.3);
+  }
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* max-width: 2200px; 设置最大宽度 */
+    flex-wrap: wrap;   /* 允许卡片换行 */
+	gap:20px;
+  }
+  .card {
+  flex: 1 1 200px;     /* 允许卡片自由缩放，最小宽度 200px */
+  margin: 10px;
+  height: 200px; /* 调整卡片的固定高度 */
+  border: 1px solid rgba(0, 99, 155, 0.2); /* 边框设置为透明度较低 */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 99, 155, 0.2); /* 软化边缘的羽化效果 */
+  transition: all 0.3s ease;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;    /* 设置卡片的最大宽度 */
+}
+
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 99, 155, 0.2);
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #777;
+}
+
+
+
+.map {
+	margin-top:20px;
+	border: 1px solid rgba(0, 99, 155, 0.2); /* 边框设置为透明度较低 */
+      width: 98%;
+      height: 70vh; /* 高度为视口高度的50% */
+      /* 你可以根据需要调整高度比例 */
+    }
+
+    /* 可选：在不同屏幕尺寸下调整高度 */
+    @media (max-width: 768px) {
+      .map {
+		width: 95%;
+        height: 50vh;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .map {
+		width: 95%;
+        height: 50vh;
+      }
+    }
+
+</style>
+
+
+<script type="text/javascript">
+	var map; // 定义地图对象
+	var point; // 定义定位点
+	var marker; // 定义标记
+
+	function initialize() {
+		// 创建地图实例
+		map = new BMap.Map('map');
+		
+		// 指定经纬度坐标
+		point = new BMap.Point(123.553727, 41.748608); 
+
+		// 设置地图的中心点和缩放级别（缩放级别增大以查看详细信息）
+		map.centerAndZoom(point, 17); // 定位到该点，缩放级别为17（更近，显示详细信息）
+
+		// 启用滚轮缩放功能
+		// map.enableScrollWheelZoom(false); // 启用地图的滚轮缩放功能
+
+		// 创建自定义蓝色填充标记
+		var redIcon = new BMap.Icon('/assets/location/location.png', new BMap.Size(40, 40)); // 自定义图标
+		marker = new BMap.Marker(point, {icon: redIcon}); // 使用自定义图标创建标记
+		map.addOverlay(marker); // 将标记添加到地图
+
+
+		// 添加缩放控件
+		map.addControl(new BMap.NavigationControl()); // 缩放控件（包括放大缩小按钮）
+
+		// 添加比例尺控件
+		map.addControl(new BMap.ScaleControl()); // 比例尺控件
+	}
+
+	// 加载百度地图API
+	function loadScript() {
+		var script = document.createElement("script");
+		script.src = "https://api.map.baidu.com/api?v=2.0&ak=ZbICriNT4c5zrjP3IzvKq2IJ4g4uYuNZ&callback=initialize"; 
+		document.body.appendChild(script);
+	}
+
+	window.onload = loadScript; // 页面加载时执行
+</script>
+
+

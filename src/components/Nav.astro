@@ -1,0 +1,311 @@
+---
+// import Icon, { Props as IconProps } from './Icon.astro';
+import ThemeToggle from './ThemeToggle.astro';
+import Effect from "../effects/Effect.astro";
+import {nav} from '../data/content';
+import EffectSwitch from "../effects/EffectSwitch.astro";
+import NavMobile from "../components/NavMobile.astro";
+---
+
+<nav>
+	<!-- 导航栏 -->
+	<div class="container nav-wrapper">
+		<!-- 导航栏头部 -->
+		<div class="menu-header">
+			<!-- 网站标题 -->
+			<div class="site-title">
+				<!-- 定义一个链接指向首页 -->
+				<a href="/" class="author">
+					<!-- 定义实验室Icon容器 -->
+					<figure class="avatar">
+						<!-- 设置实验室Icon图像，图像地址通过{nav.avatar}动态传入，禁止图像被拖拽 -->
+						<img class="avatar__img"
+							src={nav.avatar} alt=""
+							draggable="false">
+						<figcaption class="avatar__name">嵌入式与工业互联实验室</figcaption>
+					</figure>
+					<!-- <span class="lab-name">智能驾驶实验室</span> -->
+				</a>
+				<!-- 效果组件 -->
+				<!-- <EffectSwitch/> -->		
+			</div>
+		</div>
+		<!-- 定义菜单容器 -->
+		<div id="menu-content">
+			<!-- 定义PC端的菜单容器 -->
+			<div class="menu-footer pc-nav">
+				<!-- 创建一个菜单项容器 -->
+				<ul class="nav-items">
+					<!-- 遍历nav常量中的每个导航栏标签项 -->
+					{nav.items?.map(item => (
+						// 定义列表项
+						<li>
+							<a
+							 	aria-current={Astro.url.pathname === item.href ? 'page' : undefined}
+								 class:list={[
+									'link',
+									{
+										active: Astro.url.pathname === item.href ||
+											(item.href !== '/' && Astro.url.pathname.startsWith(item.href)),
+									},
+								]}
+								
+								href={item.href}  
+								
+								target={item.target || '_self'}
+							>
+								{/* 导航栏标签名称 */}
+								{item.label}		
+							</a>
+						</li>
+    				))}
+				</ul>
+				<!-- <div class="theme-toggle" style="transform:scale(0.75)">
+					<ThemeToggle />
+				</div> -->
+			</div>
+			<!-- 创建移动端的菜单容器 -->
+			<NavMobile/>
+		</div>
+	</div>
+</nav>
+<!-- 光标跟随动画 -->
+<!-- <Effect/> -->
+<script>
+	class MenuButton extends HTMLElement {
+		constructor() {
+			super();
+
+			// Inject menu toggle button when JS runs.
+			this.appendChild(this.querySelector('template')!.content.cloneNode(true));
+			const btn = this.querySelector('button')!;
+
+			// Hide menu (shown by default to support no-JS browsers).
+			const menu = document.getElementById('menu-content')!;
+			menu.hidden = true;
+
+			/** Set whether the menu is currently expanded or collapsed. */
+			const setExpanded = (expand: boolean) => {
+				btn.setAttribute('aria-expanded', expand ? 'true' : 'false');
+				menu.hidden = !expand;
+			};
+
+			// Toggle menu visibility when the menu button is clicked.
+			btn.addEventListener('click', () => setExpanded(menu.hidden));
+
+			// Hide menu button for large screens.
+			const handleViewports = (e: MediaQueryList | MediaQueryListEvent) => {
+				setExpanded(e.matches);
+				btn.hidden = e.matches;
+			};
+			const mediaQueries = window.matchMedia('(min-width: 50em)');
+			handleViewports(mediaQueries);
+			mediaQueries.addEventListener('change', handleViewports);
+		}
+	}
+	customElements.define('menu-button', MenuButton);
+</script>
+
+<style>
+
+	nav {
+		z-index: 9999;
+		position: relative;
+		font-family: var(--font-brand);
+		font-weight: 500;
+		position: sticky;
+		top: 0;
+		-webkit-backdrop-filter: saturate(300%) blur(5px);
+		backdrop-filter: saturate(300%) blur(5px);
+		background-color: rgba(var(--color-999-rgb), 0.65);
+		
+	}
+	.bg-ticker{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: -50px;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+	.menu-header {
+		display: flex;
+		justify-content: space-between;
+		gap: 0.5rem;
+		padding: 0;
+	}
+
+	.site-title {
+		display: flex;
+		gap: 0.5rem;
+		justify-content: flex-start;
+		align-items: center;
+		line-height: 1.1;
+		color: var(--color-0);
+		font-weight: 400;
+		text-decoration: none;
+		font-size: 1.5rem;
+		letter-spacing: 0.1px;
+		&:hover{
+			color:rgb(236, 72, 113);
+		}
+	}
+
+	
+	.logo {
+		max-height: 30px;
+	}
+	.logo path{
+		fill: var(--color-100);
+	}
+	.avatar {
+    display: flex; /* 使用flexbox布局，使图标和文本水平排列 */
+    align-items: center; /* 垂直居中对齐 */
+    gap: 10px; /* 图标和文字之间的间距 */
+    width: auto; /* 容器宽度自适应内容 */
+    height: auto; /* 容器高度自适应内容 */
+}
+
+.avatar__img {
+    display: block;
+    width: 40px; /* 图标的宽度 */
+    height: 40px; /* 图标的高度 */
+    
+}
+
+.avatar__name {
+    font-weight: 400; /* 字体权重 */
+    font-size: 16px; /* 字体大小可以适当调整 */
+    line-height: 1.2; /* 设置文本行高，以控制文本的间距 */
+    white-space: nowrap; /* 防止文字换行 */
+    overflow: hidden; /* 隐藏超出容器的部分 */
+    text-overflow: ellipsis; /* 超出部分显示省略号 */
+	
+}
+
+
+
+	.nav-wrapper{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		height: 70px; /* 增加导航栏的高度 */
+		/* background-color:rgba(0, 99, 155, 0.2); */
+	}
+	.nav-items {
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		font-size:1rem;
+		font-weight: normal;
+		line-height:1;
+		list-style: none;
+		padding: 0;
+		position: relative;
+		border: 0;
+		gap: calc(var(--gap)*1.5);
+	}
+	.nav-items li{
+		margin:0;
+	}
+	.link {
+		display: inline-block;
+		color: var(--color-300);
+		text-decoration: none;
+		
+	}
+	.link:hover {
+        color: #00639b; /* 悬停时的字体颜色变为蓝色 */
+    	text-decoration: underline;
+    	text-decoration-color: #00639b; /* 下划线颜色也变为蓝色 */
+    	text-decoration-thickness: 2px;
+    	text-underline-offset: 7px;
+	}
+
+	.link.active {
+		color: var(--color-100);
+		font-weight: bold;
+	}
+
+	.link.active:hover {
+        color: var(--color-100); /* 悬停时的字体颜色变为蓝色 */
+    	text-decoration: underline;
+    	text-decoration-color: var(--color-100); /* 下划线颜色也变为蓝色 */
+    	text-decoration-thickness: 2px;
+    	text-underline-offset: 7px;
+	}
+
+	.menu-footer {
+		--icon-size: var(--text-xl);
+		--icon-padding: 0.5rem;
+		display: flex;
+		justify-content: space-between;
+		gap: 0.75rem;
+		padding: .35rem 0rem;
+	}
+
+	.socials {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.625rem;
+		font-size: var(--icon-size);
+	}
+
+	.social {
+		display: flex;
+		padding: var(--icon-padding);
+		text-decoration: none;
+		color: var(--accent-dark);
+		transition: color var(--theme-transition);
+	}
+
+	.social:hover,
+	.social:focus {
+		color: var(--accent-text-over);
+	}
+
+	.theme-toggle {
+		display: flex;
+		align-items: center;
+		height: calc(var(--icon-size) + 2 * var(--icon-padding));
+	}
+	.languages {
+		display: flex;
+		align-items: center;
+		height: calc(var(--icon-size) + 2 * var(--icon-padding));
+	}
+
+	@media (min-width: 60em) {
+		.socials {
+			display: flex;
+			justify-content: flex-end;
+			gap: 0;
+		}
+	}
+	@media (max-width: 576px) {
+		.nav-wrapper{
+			display: flex;
+			align-items: center;
+			gap: 0rem;
+
+		}
+		.menu-header{
+			padding:8px 0;
+		}
+		.menu-footer{
+			padding: 0;
+		}
+	}
+	.pc-nav{
+ 	 	display: none;
+	}
+	@media (min-width: 767px) {
+		.pc-nav{
+			display: flex;
+		}
+	}
+</style>
