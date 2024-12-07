@@ -25,8 +25,7 @@ export default defineConfig({
     wrap: true,
     }
   },
-  site: 'https://DLBDM.github.io',
-  base: '/sictlab',
+  site: 'https://blog-template.606design.art/',
   integrations: [sitemap()],
   css: {
     preprocessorOptions: {
