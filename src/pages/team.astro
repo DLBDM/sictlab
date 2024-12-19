@@ -13,6 +13,7 @@ import MemberCard from '../components/MemberCard.astro';
 const importantTeam = team.filter(member => member.type === 'important');
 const masterTeam = team.filter(member => member.type === 'master');
 const doctorTeam = team.filter(member => member.type === 'doctor');
+const yzyResume = '尹震宇，博士/研究员（三级）/博士生导师。长期从事智能制造、工业人工智能、工业互联网领域研发工作。中国软件行业协会常务理事、ISO/IEC国际标准工作组专家成员兼中方秘书、全国工业机械电气系统标准化技术委员会SAC/TC231副秘书长以及SAC/TC231/SC3秘书长，辽宁省重点实验室主任、国家地方联合工程实验室副主任。作为课题负责人/子课题负责人承担01国家科技重大专项、04国家科技重大专项、国家重点研发计划、工信部高质量发展专项、中国科学院STS计划等重大项目。主持/参与完成ISO及IEC国际标准4项、国家/行业标准31项、发表论文152篇、授权发明专利25项、培养博/硕士研究生78人。获中国标准创新贡献一等奖、中国机械工业科学技术一等奖4项、辽宁省科技进步二等奖，以及全国杰出工程师青年奖、辽宁省“百千万人才工程”百人层次人才、辽宁省“兴辽英才”青年拔尖人才、辽宁省青年科技奖、机械工业标准化工作先进工作者、机床工具行业标准化先进工作者等。';
 ---
 <BlogPostLayout
 	title={aboutTdk.title || ''}
@@ -46,7 +47,7 @@ const doctorTeam = team.filter(member => member.type === 'doctor');
                         <div class="remark"></div>
                     </div>
                     <div class="title">研究员、博士生导师</div>
-                    <div class="details">尹震宇，研究员，深圳市海外高层次人才，香港中文大学07级物理哲学博士，2012~0016年密苏里科技大学访问学者。2016年9月入职深圳大学。兼任美国物理学会（APS）审稿人，美国光学学会（OSA）审稿人。主要研究方向包括电磁波与功能性材料相互作用的理论计算和数值分析实验，以及等效介质理论的第一性原理的研究。</div>
+                    <div class="details">{yzyResume}</div>
                     <a href="/team/yzy-resume">
                         <button class="button">查看更多</button>
                     </a>
@@ -170,6 +171,7 @@ const doctorTeam = team.filter(member => member.type === 'doctor');
             display: flex;
             flex-direction: column;
             padding:40px;
+            padding-bottom:0px;
             
         }
         
@@ -218,32 +220,28 @@ const doctorTeam = team.filter(member => member.type === 'doctor');
     display: block;
 }
 
-/* 移动设备（例如，屏幕宽度小于或等于768px）上应用省略号效果 */
-@media (max-width: 1200px) {
-    .details {
-        display: -webkit-box; /* 使用弹性盒模型 */
-        -webkit-line-clamp: 2; /* 显示3行文本 */
-        -webkit-box-orient: vertical; /* 垂直排列 */
-        overflow: hidden; /* 隐藏超出部分 */
-        margin-bottom: 20px;
-        /* 可选：为省略号添加渐变遮罩效果 */
-        position: relative;
-    }
-    
-    /* 可选：添加渐变遮罩以增强视觉效果 */
-    @media (max-width: 1200px) {
-        .details::after {
-            content: '';
-            text-align: right;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            height: 1.2em; /* 与行高匹配 */
-            background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
-        }
-    }
+/* 应用省略号效果 */
+.details {
+    display: block; /* 或其他适合的 display 属性 */
+    line-height: 1.6em; /* 设置每行的高度 */
+    max-height: 6.4em; /* 4行 x 1.2em */
+    overflow: hidden; /* 隐藏超出部分 */
+    margin-bottom: 20px;
+    position: relative; /* 为伪元素定位做准备 */
+    text-indent: 2em; /* 根据需要调整缩进量 */
 }
+
+/* 添加渐变遮罩以增强视觉效果 */
+.details::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.2em; /* 与行高匹配 */
+    background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+}
+
 
 
     .button {
