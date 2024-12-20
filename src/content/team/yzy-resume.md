@@ -6,7 +6,7 @@ publishDate: 2024-10-22
 
 
 <!-- <img src="/assets/team/yzy.jpg" alt="loading" style="zoom:70%; display: block; margin: 0 auto;" /> -->
-| <img src="/assets/team/yzy.jpg" alt="yzy" width="150" /> | <span style="font-size:1.5em; display: block; margin:40px; margin-left: 30px;">尹震宇</span> <span style="display: block; margin:10px; margin-left: 30px;">博士/研究员(三级)/博士生导师</span> <span style="display: block; margin:10px;margin-left: 30px; font-weight: normal;">电话: 123-456-7890</span>  <span style="display: block; margin-left: 30px; font-weight: normal;">邮箱: congmy@163.com</span> |
+| <img src="/assets/team/yzy.jpg" alt="yzy" width="150" /> | <span style="font-size:1.5em; display: block; margin:40px; margin-left: 30px;">尹震宇</span> <span style="display: block; margin:10px; margin-left: 30px;">博士/研究员(三级)/博士生导师</span> <span style="display: block; margin:10px;margin-left: 30px; font-weight: normal;">电话: 13609823698</span>  <span style="display: block; margin-left: 30px; font-weight: normal;">邮箱: congmy@163.com</span> |
 |:--|:--|
 
 ### 研究领域
