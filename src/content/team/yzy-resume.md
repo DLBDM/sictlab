@@ -18,39 +18,40 @@ publishDate: 2024-10-22
 
 ### 重要经历
 2024-05 ~ 至今  中国软件行业协会, 常务理事<br>
-2019-03 ~ 至今  中国科学院沈阳计算技术研究所, 主任<br>
+2019-03 ~ 至今  中国科学院沈阳计算技术研究所有限公司, 主任<br>
 2017-11 ~ 至今  中国机械工程学会 高性能传动与智能装备专业委员会, 常委委员<br>
-2017-03 ~ 至今  中国科学院沈阳计算技术研究所, 研发中心副主任<br>
+2017-03 ~ 至今  中国科学院沈阳计算技术研究所有限公司, 研发中心副主任<br>
 2016-05 ~ 至今  全国工业机械电气系统标准化技术委员会 SAC/TC231, 副秘书长<br>
-2014-11 ~ 至今  中国科学院沈阳计算技术研究所, 研究员<br>
+2014-11 ~ 至今  中国科学院沈阳计算技术研究所有限公司, 研究员<br>
 2012-01 ~ 至今  全国工业机械电气系统标准化技术委员会安全控制系统分技术委员会（SAC/TC231/SC3）秘书长, 秘书长<br>
-2009-04 ~ 2014-10  中国科学院沈阳计算技术研究所, 副研究员<br>
-2008-03 ~ 2009-03  中国科学院沈阳计算技术研究所, 助理研究员<br>
+2009-04 ~ 2014-10  中国科学院沈阳计算技术研究所有限公司, 副研究员<br>
+2008-03 ~ 2009-03  中国科学院沈阳计算技术研究所有限公司, 助理研究员<br>
 2004-09 ~ 2008-03  东北大学  计算机应用技术博士学位<br>
 2001-09 ~ 2004-03  东北大学  计算机应用技术硕士学位<br>
 1997-09 ~ 2001-07  东北大学  计算机科学与技术学士学位<br>
 ### 主要荣誉
+（1）辽宁省科学技术进步奖, 省级, 2024
 （1）沈阳市高层次人才人选（杰出人才）, 市地级, 2023<br>
-（2）中国机械工业科学技术一等奖, 一等奖, 部委级, 2023<br>
+（2）中国机械工业科学技术奖, 部委级, 2023<br>
 （3）沈阳市优秀科技工作者, 市地级, 2022<br>
-（4）江苏省高等学校科学技术研究成果奖二等奖, 二等奖, 省级, 2021<br>
-（5）中国标准创新贡献奖一等奖, 一等奖, 部委级, 2020<br>
-（6）中国机械工业科学技术一等奖, 一等奖, 部委级, 2020<br>
-（7）中国机械工业科学技术一等奖, 一等奖, 部委级, 2019<br>
-（8）北京市科学技术奖, 三等奖, 省级, 2018<br>
-（9）全国工程科技领域突出贡献者-杰出工程师青年奖, , 部委级, 2018<br>
+（4）江苏省高等学校科学技术研究成果奖, 省级, 2021<br>
+（5）中国标准创新贡献奖, 部委级, 2020<br>
+（6）中国机械工业科学技术奖, 部委级, 2020<br>
+（7）中国机械工业科学技术奖, 部委级, 2019<br>
+（8）北京市科学技术奖, 省级, 2018<br>
+（9）全国工程科技领域突出贡献者-杰出工程师青年奖, 部委级, 2018<br>
 （10）辽宁省“兴辽英才计划”青年拔尖人才, 省级, 2018<br>
-（11）中国机械工业科学技术一等奖, 一等奖, 部委级, 2017<br>
+（11）中国机械工业科学技术奖, 部委级, 2017<br>
 （12）辽宁省青年科技奖, 省级, 2017<br>
 （13）辽宁省直机关五一劳动奖章, 省级, 2017<br>
-（14）中国机械工业科学技术二等奖, 二等奖, 国家级, 2016<br>
+（14）中国机械工业科学技术奖, 国家级, 2016<br>
 （15）“十二五”机械工业标准化先进工作者, 部委级, 2016<br>
-（16）沈阳市发明专利二等奖, 二等奖, 市地级, 2014<br>
-（17）辽宁省科学技术三等奖, 三等奖, 省级, 2014<br>
-（18）全国工业机械电气系统标准化技术委员会先进, , 其他, 2014<br>
-（19）辽宁“百千万人才工程”**层次人才, , 省级, 2013<br>
-（20）机床工具行业标准化先进工作者, , 部委级, 2011<br>
-（21）工业机械电气系统行业标准化先进, , 其他, 2010<br>
+（16）沈阳市发明专利奖, 市地级, 2014<br>
+（17）辽宁省科学技术奖, 省级, 2014<br>
+（18）全国工业机械电气系统标准化技术委员会先进, 其他, 2014<br>
+（19）辽宁“百千万人才工程”**层次人才, 省级, 2013<br>
+（20）机床工具行业标准化先进工作者, 部委级, 2011<br>
+（21）工业机械电气系统行业标准化先进工作者, 其他, 2010<br>
 
 ### 专利成果
 （1）一种基于深度学习的轴承故障诊断方法及装置, 发明专利, 2022, 第 1 作者, 专利号: 202211601962.3<br>
@@ -99,57 +100,57 @@ publishDate: 2024-10-22
 （44）一种低光条件下工件目标检测的通用增强模块及方法, 发明专利, 2023, 第 1 作者, 专利号: 202311756757.9<br>
 
 ### 出版著作
-（1）GB/T 22841-2008《工业机械电气设备 电压暂降和短时中断抗扰度试验规范》国家标准, GB/T 22841-2008《Electrical equipment of industrial machines-Test specifications for voltage dips,short interruptions immunity》, 中国标准出版社, 2008-12, 第 其他 作者<br>
-（2）GB/T 22840-2008《工业机械电气设备浪涌抗扰度试验规范》国家标准, GB/T 22840-2008《Electrical equipment of industrial machines-Test specifications for surge immunity》, 中国标准出版社, 2008-12, 第 其他 作者<br>
-（3）GB/T 24111-2009《工业机械电气设备 电快速瞬变脉冲群抗扰度试验规范》国家标准, GB/T 24111-2009《Electrical equipment of industrial machines-Electrical fast transient/burst immunity test specifications》, 中国标准出版社, 2009-06, 第 3 作者<br>
-（4）GB/T 18759.3-2009《机械电气设备 开放式数控系统 第3部分：总线接口与通信协议》国家标准, GB/T 18759.3-2009《Electrical equipment of machines-Open numerical control system-Part3:Fieldbus interface and communication protocol》, 中国标准出版社, 2009-06, 第 其他 作者<br>
-（5）GB/T 24112-2009《工业机械电气设备 静电放电抗扰度试验规范》国家标准, GB/T 24112-2009《Electrical equipment of industrial machines-Electrostatic discharge immunity test specifications》, 中国标准出版社, 2009-06, 第 5 作者<br>
-（6）GB/T 18759.3-2009《机械电气设备 开放式数控系统 第3部分：总线接口与通信协议》国家标准, GB/T 18759.3-2009《Electrical equipment of machines-Open numerical control system-Part3:Fieldbus interface and communication protocol》, 中国标准出版社, 2009-06, 第 其他 作者<br>
-（7）GB/T 24111-2009 工业机械电气设备 电快速瞬变脉冲群抗扰度试验规范, Electrical equipment of industrial machines - Electrical fast transient/burst immunity test specifications, 中国标准出版社, 2009-06, 第 3 作者<br>
-（8）GB/T 24112-2009 工业机械电气设备 静电放电抗扰度试验规范, Electrical equipment of industrial machines - Electrostatic discharge immunity test specifications, 中国标准出版社, 2009-06, 第 5 作者<br>
-（9）GB 18209.2-2010《机械电气安全 指示、标志和操作 第2部分：标志要求》国家标准, GB 18209.2-2010《Electrical safety of machinery-Indication,marking and actuation-Part2:Requirements for marking》, 中国标准出版社, 2011-01, 第 5 作者<br>
-（10）GB 18209.2-2010 机械电气安全 指示、标志和操作 第2部分：标志要求, Electrical safety of machinery - Indication, marking and actuation - Part 2: Requirements for marking, 中国标准出版社, 2011-01, 第 5 作者<br>
-（11）GB 28526-2012《机械电气安全 安全相关电气、电子和可编程电子控制系统的功能安全》国家标准, GB 28526-2012《Electrical safety of machinery-Functional safety of safety-related eletrical,electronic and programmable electronic control systems》, 中国标准出版社, 2012-06, 第 2 作者<br>
-（12）GB 28526-2012 机械电气安全 安全相关电气、电子和可编程电子控制系统的功能安全, Electrical safety of machinery - Functional safety of safety-related electrical, electronic and programmable electronic control systems, 中国标准出版社, 2012-06, 第 2 作者<br>
-（13）DB21/T3008-2013《工业机械用驱动单元安全控制功能要求》地方标准, DB21/T3008-2013《Safety control functional requirements for servo units in industrial machinery》, 辽宁省质监局, 2013-03, 第 1 作者<br>
-（14）DB/21T3008-2013 工业机械用驱动单元安全控制功能要求, Safety control functional requirements for servo units in industrial machinery, 辽宁省质量技术监督局, 2013-03, 第 1 作者<br>
-（15）DB21/T2315-2014《工业机械用数字控制器安全功能要求》地方标准, DB21/T2315-2014《Safety control functional requirements for numerical controller of industrial machinery》, 辽宁省质监局, 2014-06, 第 1 作者<br>
-（16）DB21/T2315-2014 工业机械用数字控制器安全功能要求, Safety control functional requirements for numerical controller of industrial machinery, 辽宁省质量技术监督局, 2014-06, 第 1 作者<br>
-（17）GB/T 18759.4-2014《机械电气设备 开放式数控系统 第4部分：硬件平台》国家标准, GB/T 18759.4-2014《Electrical equipment of machines-Open numerical control system-Part5:Hardware platform》, 中国标准出版社, 2014-09, 第 4 作者<br>
-（18）GB/T 18759.4-2014 机械电气设备 开放式数控系统 第4部分：硬件平台, Electrical equipment of machines―Open numerical control system―Part 4: Hardware platform, 中国标准出版社, 2014-09, 第 4 作者<br>
-（19）8 GB/T 18473-2016《工业机械电气设备 控制与驱动装置间实时串行通信数据链路》国家标准, GB/T 18473-2016《Electrical equipment of industrial machines-Serial data link for real-time communication between controls and drives》, 中国标准出版社, 2016-04, 第 3 作者<br>
-（20）GB/T 18759.5-2014《机械电气设备 开放式数控系统 第5部分：软件平台》国家标准, GB/T 18759.5-2014《Electrical equipment of machines-Open numerical control system-Part5:Software platform》, 中国标准出版社, 2016-04, 第 3 作者<br>
-（21）GB/T 18759.6-2014《机械电气设备 开放式数控系统 第6部分：网络接口与通信协议》国家标准, GB/T 18759.6-2014《Electrical equipment of machines-Open numerical control system-Part6:Network interface and communication protocol》, 中国标准出版社, 2016-04, 第 4 作者<br>
-（22）GB/T 18759.5-2016 机械电气设备 开放式数控系统 第5部分：软件平台, Electrical equipment of machines—Open numerical control system—Part 5: Software platform, 中国标准出版社, 2016-04, 第 3 作者<br>
-（23）GB/T 18759.6-2016 机械电气设备 开放式数控系统 第6部分：网络接口与通信协议, Electrical equipment of machines—Open numerical control system—Part 6: Network interface and communication protocol, 中国标准出版社, 2016-04, 第 4 作者<br>
-（24）GB/T 18473-2016 工业机械电气设备 控制与驱动装置间实时串行通信数据链路, Electrical equipment of industrial machines—Serial data link for real-time communication between controls and drives, 中国标准出版社, 2016-04, 第 3 作者<br>
-（25）数控机床电气设备及系统安全 IEC/TS 60204-34, IEC/TS 60204-34:2016《Safety of machinery -Electrical equipment ofmachines - Part 34_Requirements for machine tools》, 国际电工委员会（IEC）, 2016-08, 第 2 作者<br>
-（26）JB/T 13215-2017《工业机械电气设备及系统 开放式数控系统 加工程序编程语言》行业标准, JB/T 13215-2017《Electrical equipment and system of industrial machines—Programing language of processing procedures for ONC system》, 机械工业出版社, 2017-04, 第 2 作者<br>
-（27）JB/T 13214-2017《工业机械电气设备及系统 开放式数控系统 PLC 编程语言》行业标准, JB/T 13214-2017《Electrical equipment and system of machines—PLC programme in open numerical control system》, 机械工业出版社, 2017-04, 第 2 作者<br>
-（28）JB/T 13215-2017 工业机械电气设备及系统 开放式数控系统加工程序编程语言, 中国标准出版社, 2017-04, 第 2 作者<br>
-（29）JB/T 13214-2017 工业机械电气设备及系统 开放式数控系统PLC编程语言, 中国标准出版社, 2017-04, 第 2 作者<br>
-（30）GB/T 18759.8-2017《机械电气设备 开放式数控系统 第8部分：试验与验收》国家标准, GB/T 18759.8-2017《Electrical equipment of machines-Open numerical control system-Part8:Test and acceptance 》, 中国标准出版社, 2017-07, 第 2 作者<br>
-（31）GB/T 18759.7-2017《机械电气设备 开放式数控系统 第7部分：通用技术条件》国家标准, GB/T 18759.7-2017《Electrical equipment of machines-Open numerical control system-Part7:General technical specification》, 中国标准出版社, 2017-07, 第 3 作者<br>
-（32）GB/T 34136-2017《机械电气安全 GB 28526和GBT 16855.1用于机械安全相关控制系统设计的应用指南》国家标准, GB/T 34136-2017《Electrical safety of machinery-Guidance on the application of GB 28526 and GB/T 16855.1 in the design of safety-related control systems for machinery》, 中国标准出版社, 2017-07, 第 4 作者<br>
-（33）GB/T 18759.8-2017 机械电气设备 开放式数控系统 第8部分：试验与验收, GB/T 18759.8-2017《Electrical equipment of machines-Open numerical control system-Part8:Test and acceptance 》, 中国标准出版社, 2017-07, 第 2 作者<br>
-（34）GB/T 18759.7-2017 机械电气设备 开放式数控系统 第7部分：通用技术条件, 中国标准出版社, 2017-07, 第 3 作者<br>
-（35）GB/T 34136-2017 机械电气安全 GB 28526和GB/T 16855.1用于机械安全相关控制系统设计的应用指南, 中国标准出版社, 2017-07, 第 4 作者<br>
-（36）GB/T 34934-2017《机械电气安全 安全相关设备中的通信系统使用指南》国家标准, GB/T 34934-2017《Electrical safety of machinery-Guidelines for the use of communication systems in safety-related applications》, 中国标准出版社, 2017-11, 第 1 作者<br>
-（37）GB/T 34934-2017 机械电气安全 安全相关设备中的通信系统使用指南, 中国标准出版社, 2017-11, 第 1 作者<br>
-（38）GB/T 36572-2018《电力监控系统网络安全防护导则》国家标准, GB/T 36572-2018《Guidelines of cyber security protection for electric power system supervision and control》, 中国标准出版社, 2018-09, 第 其他 作者<br>
-（39）GB/T 36572-2018 电力监控系统网络安全防护导则, 中国标准出版社, 2018-09, 第 其他 作者<br>
-（40）GB/T 22840-2008《工业机械电气设备浪涌抗扰度试验规范》国家标准, GB/T 22840-2008《Electrical equipment of industrial machines-Test specifications for surge immunity》, 中国标准出版社, 2018-12, 第 其他 作者<br>
-（41）GB/T 40329-2021《工业机械电气设备及系统 数控PLC编程语言》国家标准, GB/T 40329-2021《Electrical equipment and system of industrial machines-PLC programme in numerical control system》, 中国标准出版社, 2021-08, 第 4 作者<br>
-（42）GB/T 40328-2021《工业机械电气设备及系统 数控加工程序编程语言》国家标准, GB/T 40328-2021《Electrical equipment and system of industrial machines-Programing language of processing procedures for NC system》, 中国标准出版社, 2021-08, 第 其他 作者<br>
-（43）GB/T 40328-2021 工业机械电气设备及系统 数控加工程序编程语言, GB/T 40328-2021 Electrical equipment and system of industrial machines—Programing language of processing procedures for NC system, 中国标准出版社, 2021-08, 第 其他 作者<br>
-（44）GB/T 40329-2021 工业机械电气设备及系统 数控PLC编程语言, GB/T 40329-2021 Electrical equipment and system of industrial machines—PLC programme in numerical control system, 中国标准出版社, 2021-08, 第 4 作者<br>
-（45）GB/Z 41288-2022《信息安全技术 重要工业控制系统网络安全防护导则》国家标准, GB/Z 41288-2022《Information security technology-Guidelines of cyber security protection for important industrial control system》, 中国标准出版社, 2022-03, 第 其他 作者<br>
-（46）GB/Z 41288-2022 信息安全技术 重要工业控制系统网络安全防护导则, GB/Z 41288-2022 Information security techonology—Guidelines of cyber security protection for important industrial control system, 中国标准出版社, 2022-03, 第 其他 作者<br>
-（47）工业自动化系统与集成 机床数控系统 第1部分：通用技术要求ISO 23218-1, ISO 23218-1:2022《Industrial automation systems and integration— Numerical control systems for machine tools — Part 1:Requirements for numerical control systems》, 国际标准化组织（ISO, 2022-06, 第 3 作者<br>
-（48）JB/T 14347.2—2022《工业机械电气设备及系统 数控系统功能测试规范 第2部分：基本功能》行业标准, JB/T 14347.2—2022《Electrical equipment and system of industrial machine—Test specification for function of numerical control system—Part 2:Basic functions》, 机械工业出版社, 2022-10, 第 5 作者<br>
-（49）JB/T 14347.1—2022《工业机械电气设备及系统 数控系统功能测试规范 第1部分：总则》行业标准, JB/T 14347.1—2022《Electrical equipment and system of industrial machine—Test specification for function of numerical control system—Part 1:General rules》, 机械工业出版社, 2022-10, 第 5 作者<br>
-（50）JB/T 14347.3—2022《工业机械电气设备及系统 数控系统功能测试规范 第3部分：扩展功能》行业标准, JB/T 14347.3—2022《Electrical equipment and system of industrial machine—Test specification for function of numerical control system—Part 3:Extended functions》, 机械工业出版社, 2022-10, 第 3 作者<br>
-（51）机床安全控制系统功能安全指南IEC 63394:2023, IEC 63394:2023《Safety of machinery - Guidelines on functional safety of safety-related control system》, 国际电工委员会（IEC, 2023-02, 第 2 作者<br>
+（1）GB/T 22841-2008《工业机械电气设备 电压暂降和短时中断抗扰度试验规范》国家标准, GB/T 22841-2008《Electrical equipment of industrial machines-Test specifications for voltage dips,short interruptions immunity》, 中国标准出版社, 2008-12<br>
+（2）GB/T 22840-2008《工业机械电气设备浪涌抗扰度试验规范》国家标准, GB/T 22840-2008《Electrical equipment of industrial machines-Test specifications for surge immunity》, 中国标准出版社, 2008-12<br>
+（3）GB/T 24111-2009《工业机械电气设备 电快速瞬变脉冲群抗扰度试验规范》国家标准, GB/T 24111-2009《Electrical equipment of industrial machines-Electrical fast transient/burst immunity test specifications》, 中国标准出版社, 2009-06<br>
+（4）GB/T 18759.3-2009《机械电气设备 开放式数控系统 第3部分：总线接口与通信协议》国家标准, GB/T 18759.3-2009《Electrical equipment of machines-Open numerical control system-Part3:Fieldbus interface and communication protocol》, 中国标准出版社, 2009-06<br>
+（5）GB/T 24112-2009《工业机械电气设备 静电放电抗扰度试验规范》国家标准, GB/T 24112-2009《Electrical equipment of industrial machines-Electrostatic discharge immunity test specifications》, 中国标准出版社, 2009-06<br>
+（6）GB/T 18759.3-2009《机械电气设备 开放式数控系统 第3部分：总线接口与通信协议》国家标准, GB/T 18759.3-2009《Electrical equipment of machines-Open numerical control system-Part3:Fieldbus interface and communication protocol》, 中国标准出版社, 2009-06<br>
+（7）GB/T 24111-2009 工业机械电气设备 电快速瞬变脉冲群抗扰度试验规范, Electrical equipment of industrial machines - Electrical fast transient/burst immunity test specifications, 中国标准出版社, 2009-06<br>
+（8）GB/T 24112-2009 工业机械电气设备 静电放电抗扰度试验规范, Electrical equipment of industrial machines - Electrostatic discharge immunity test specifications, 中国标准出版社, 2009-06<br>
+（9）GB 18209.2-2010《机械电气安全 指示、标志和操作 第2部分：标志要求》国家标准, GB 18209.2-2010《Electrical safety of machinery-Indication,marking and actuation-Part2:Requirements for marking》, 中国标准出版社, 2011-01<br>
+（10）GB 18209.2-2010 机械电气安全 指示、标志和操作 第2部分：标志要求, Electrical safety of machinery - Indication, marking and actuation - Part 2: Requirements for marking, 中国标准出版社, 2011-01<br>
+（11）GB 28526-2012《机械电气安全 安全相关电气、电子和可编程电子控制系统的功能安全》国家标准, GB 28526-2012《Electrical safety of machinery-Functional safety of safety-related eletrical,electronic and programmable electronic control systems》, 中国标准出版社, 2012-06<br>
+（12）GB 28526-2012 机械电气安全 安全相关电气、电子和可编程电子控制系统的功能安全, Electrical safety of machinery - Functional safety of safety-related electrical, electronic and programmable electronic control systems, 中国标准出版社, 2012-06<br>
+（13）DB21/T3008-2013《工业机械用驱动单元安全控制功能要求》地方标准, DB21/T3008-2013《Safety control functional requirements for servo units in industrial machinery》, 辽宁省质监局, 2013-03<br>
+（14）DB/21T3008-2013 工业机械用驱动单元安全控制功能要求, Safety control functional requirements for servo units in industrial machinery, 辽宁省质量技术监督局, 2013-03<br>
+（15）DB21/T2315-2014《工业机械用数字控制器安全功能要求》地方标准, DB21/T2315-2014《Safety control functional requirements for numerical controller of industrial machinery》, 辽宁省质监局, 2014-06<br>
+（16）DB21/T2315-2014 工业机械用数字控制器安全功能要求, Safety control functional requirements for numerical controller of industrial machinery, 辽宁省质量技术监督局, 2014-06<br>
+（17）GB/T 18759.4-2014《机械电气设备 开放式数控系统 第4部分：硬件平台》国家标准, GB/T 18759.4-2014《Electrical equipment of machines-Open numerical control system-Part5:Hardware platform》, 中国标准出版社, 2014-09<br>
+（18）GB/T 18759.4-2014 机械电气设备 开放式数控系统 第4部分：硬件平台, Electrical equipment of machines―Open numerical control system―Part 4: Hardware platform, 中国标准出版社, 2014-09<br>
+（19）8 GB/T 18473-2016《工业机械电气设备 控制与驱动装置间实时串行通信数据链路》国家标准, GB/T 18473-2016《Electrical equipment of industrial machines-Serial data link for real-time communication between controls and drives》, 中国标准出版社, 2016-04<br>
+（20）GB/T 18759.5-2014《机械电气设备 开放式数控系统 第5部分：软件平台》国家标准, GB/T 18759.5-2014《Electrical equipment of machines-Open numerical control system-Part5:Software platform》, 中国标准出版社, 2016-04<br>
+（21）GB/T 18759.6-2014《机械电气设备 开放式数控系统 第6部分：网络接口与通信协议》国家标准, GB/T 18759.6-2014《Electrical equipment of machines-Open numerical control system-Part6:Network interface and communication protocol》, 中国标准出版社, 2016-04<br>
+（22）GB/T 18759.5-2016 机械电气设备 开放式数控系统 第5部分：软件平台, Electrical equipment of machines—Open numerical control system—Part 5: Software platform, 中国标准出版社, 2016-04<br>
+（23）GB/T 18759.6-2016 机械电气设备 开放式数控系统 第6部分：网络接口与通信协议, Electrical equipment of machines—Open numerical control system—Part 6: Network interface and communication protocol, 中国标准出版社, 2016-04<br>
+（24）GB/T 18473-2016 工业机械电气设备 控制与驱动装置间实时串行通信数据链路, Electrical equipment of industrial machines—Serial data link for real-time communication between controls and drives, 中国标准出版社, 2016-04<br>
+（25）数控机床电气设备及系统安全 IEC/TS 60204-34, IEC/TS 60204-34:2016《Safety of machinery -Electrical equipment ofmachines - Part 34_Requirements for machine tools》, 国际电工委员会（IEC）, 2016-08<br>
+（26）JB/T 13215-2017《工业机械电气设备及系统 开放式数控系统 加工程序编程语言》行业标准, JB/T 13215-2017《Electrical equipment and system of industrial machines—Programing language of processing procedures for ONC system》, 机械工业出版社, 2017-04<br>
+（27）JB/T 13214-2017《工业机械电气设备及系统 开放式数控系统 PLC 编程语言》行业标准, JB/T 13214-2017《Electrical equipment and system of machines—PLC programme in open numerical control system》, 机械工业出版社, 2017-04<br>
+（28）JB/T 13215-2017 工业机械电气设备及系统 开放式数控系统加工程序编程语言, 中国标准出版社, 2017-04<br>
+（29）JB/T 13214-2017 工业机械电气设备及系统 开放式数控系统PLC编程语言, 中国标准出版社, 2017-04<br>
+（30）GB/T 18759.8-2017《机械电气设备 开放式数控系统 第8部分：试验与验收》国家标准, GB/T 18759.8-2017《Electrical equipment of machines-Open numerical control system-Part8:Test and acceptance 》, 中国标准出版社, 2017-07<br>
+（31）GB/T 18759.7-2017《机械电气设备 开放式数控系统 第7部分：通用技术条件》国家标准, GB/T 18759.7-2017《Electrical equipment of machines-Open numerical control system-Part7:General technical specification》, 中国标准出版社, 2017-07<br>
+（32）GB/T 34136-2017《机械电气安全 GB 28526和GBT 16855.1用于机械安全相关控制系统设计的应用指南》国家标准, GB/T 34136-2017《Electrical safety of machinery-Guidance on the application of GB 28526 and GB/T 16855.1 in the design of safety-related control systems for machinery》, 中国标准出版社, 2017-07<br>
+（33）GB/T 18759.8-2017 机械电气设备 开放式数控系统 第8部分：试验与验收, GB/T 18759.8-2017《Electrical equipment of machines-Open numerical control system-Part8:Test and acceptance 》, 中国标准出版社, 2017-07<br>
+（34）GB/T 18759.7-2017 机械电气设备 开放式数控系统 第7部分：通用技术条件, 中国标准出版社, 2017-07<br>
+（35）GB/T 34136-2017 机械电气安全 GB 28526和GB/T 16855.1用于机械安全相关控制系统设计的应用指南, 中国标准出版社, 2017-07<br>
+（36）GB/T 34934-2017《机械电气安全 安全相关设备中的通信系统使用指南》国家标准, GB/T 34934-2017《Electrical safety of machinery-Guidelines for the use of communication systems in safety-related applications》, 中国标准出版社, 2017-11<br>
+（37）GB/T 34934-2017 机械电气安全 安全相关设备中的通信系统使用指南, 中国标准出版社, 2017-11<br>
+（38）GB/T 36572-2018《电力监控系统网络安全防护导则》国家标准, GB/T 36572-2018《Guidelines of cyber security protection for electric power system supervision and control》, 中国标准出版社, 2018-09<br>
+（39）GB/T 36572-2018 电力监控系统网络安全防护导则, 中国标准出版社, 2018-09<br>
+（40）GB/T 22840-2008《工业机械电气设备浪涌抗扰度试验规范》国家标准, GB/T 22840-2008《Electrical equipment of industrial machines-Test specifications for surge immunity》, 中国标准出版社, 2018-12<br>
+（41）GB/T 40329-2021《工业机械电气设备及系统 数控PLC编程语言》国家标准, GB/T 40329-2021《Electrical equipment and system of industrial machines-PLC programme in numerical control system》, 中国标准出版社, 2021-08<br>
+（42）GB/T 40328-2021《工业机械电气设备及系统 数控加工程序编程语言》国家标准, GB/T 40328-2021《Electrical equipment and system of industrial machines-Programing language of processing procedures for NC system》, 中国标准出版社, 2021-08<br>
+（43）GB/T 40328-2021 工业机械电气设备及系统 数控加工程序编程语言, GB/T 40328-2021 Electrical equipment and system of industrial machines—Programing language of processing procedures for NC system, 中国标准出版社, 2021-08<br>
+（44）GB/T 40329-2021 工业机械电气设备及系统 数控PLC编程语言, GB/T 40329-2021 Electrical equipment and system of industrial machines—PLC programme in numerical control system, 中国标准出版社, 2021-08<br>
+（45）GB/Z 41288-2022《信息安全技术 重要工业控制系统网络安全防护导则》国家标准, GB/Z 41288-2022《Information security technology-Guidelines of cyber security protection for important industrial control system》, 中国标准出版社, 2022-03<br>
+（46）GB/Z 41288-2022 信息安全技术 重要工业控制系统网络安全防护导则, GB/Z 41288-2022 Information security techonology—Guidelines of cyber security protection for important industrial control system, 中国标准出版社, 2022-03<br>
+（47）工业自动化系统与集成 机床数控系统 第1部分：通用技术要求ISO 23218-1, ISO 23218-1:2022《Industrial automation systems and integration— Numerical control systems for machine tools — Part 1:Requirements for numerical control systems》, 国际标准化组织（ISO, 2022-06<br>
+（48）JB/T 14347.2—2022《工业机械电气设备及系统 数控系统功能测试规范 第2部分：基本功能》行业标准, JB/T 14347.2—2022《Electrical equipment and system of industrial machine—Test specification for function of numerical control system—Part 2:Basic functions》, 机械工业出版社, 2022-10<br>
+（49）JB/T 14347.1—2022《工业机械电气设备及系统 数控系统功能测试规范 第1部分：总则》行业标准, JB/T 14347.1—2022《Electrical equipment and system of industrial machine—Test specification for function of numerical control system—Part 1:General rules》, 机械工业出版社, 2022-10<br>
+（50）JB/T 14347.3—2022《工业机械电气设备及系统 数控系统功能测试规范 第3部分：扩展功能》行业标准, JB/T 14347.3—2022《Electrical equipment and system of industrial machine—Test specification for function of numerical control system—Part 3:Extended functions》, 机械工业出版社, 2022-10<br>
+（51）机床安全控制系统功能安全指南IEC 63394:2023, IEC 63394:2023《Safety of machinery - Guidelines on functional safety of safety-related control system》, 国际电工委员会, 2023-02<br>
 
 ### 科研项目
 （1）开放式数控系统支撑技术创新平台建设, 参与, 国家任务, 2011-01--2013-06<br>
