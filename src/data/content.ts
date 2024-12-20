@@ -13,8 +13,8 @@ interface Nav {
 
 // 定义一个Nav常量，并导出到其他文件（包括实验室图标地址、导航栏标签以及链接、打开方式）
 export const nav: Nav = {
-	avatar:'/assets/LabIcon.jpg',		//实验室图标Icon
-	labName: '计算机科学实验室',
+	avatar:'/assets/LabIcon.png',		//实验室图标Icon
+	labName: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
     items: [
         { label: '首页', href: '/', target: '_self' },
         { label: '团队', href: '/team', target: '_self' },
@@ -24,7 +24,7 @@ export const nav: Nav = {
 };
 
 // Footer(页面底部文本)
-export const footerText = `© ${new Date().getFullYear()} 嵌入式与工业互联实验室. All Rights Reserved.`
+export const footerText = `© ${new Date().getFullYear()} 辽宁省国产基础软硬件工控平台技术研究重点实验室. All Rights Reserved.`
 
 //SEO TDK
 interface SeoTdk {
