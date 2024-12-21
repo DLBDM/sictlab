@@ -34,33 +34,33 @@ interface SeoTdk {
 }
 // SEO TDK 首页
 export const homeTdk: SeoTdk = {
-	title: '嵌入式与工业互联实验室',
-	description: '嵌入式与工业互联实验室',
-	keywords: '嵌入式与工业互联实验室'
+	title: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	description: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	keywords: '辽宁省国产基础软硬件工控平台技术研究重点实验室'
 }
 // SEO TDK 博客
 export const blogTdk: SeoTdk = {
-	title: '嵌入式与工业互联实验室',
-	description: '嵌入式与工业互联实验室',
-	keywords: '嵌入式与工业互联实验室'
+	title: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	description: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	keywords: '辽宁省国产基础软硬件工控平台技术研究重点实验室'
 }
 // SEO TDK 关于
 export const aboutTdk: SeoTdk = {
-	title: '嵌入式与工业互联实验室',
-	description: '嵌入式与工业互联实验室',
-	keywords: '嵌入式与工业互联实验室'
+	title: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	description: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	keywords: '辽宁省国产基础软硬件工控平台技术研究重点实验室'
 }
 // SEO TDK  项目
 export const projectTdk: SeoTdk = {
-	title: '嵌入式与工业互联实验室',
-	description: '嵌入式与工业互联实验室',
-	keywords: '嵌入式与工业互联实验室'
+	title: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	description: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	keywords: '辽宁省国产基础软硬件工控平台技术研究重点实验室'
 }
 // SEO TDK 404
 export const notFoundTdk: SeoTdk = {
-	title: '404 Not Found - 嵌入式与工业互联实验室。',
-	description: '404 Not Found - 嵌入式与工业互联实验室。',
-	keywords: '404 Not Found. 嵌入式与工业互联实验室。'
+	title: '404 Not Found - 辽宁省国产基础软硬件工控平台技术研究重点实验室。',
+	description: '404 Not Found - 辽宁省国产基础软硬件工控平台技术研究重点实验室。',
+	keywords: '404 Not Found. 辽宁省国产基础软硬件工控平台技术研究重点实验室。'
 }
 
 // 社交平台 name：名称  url: 链接 icon：svg图标

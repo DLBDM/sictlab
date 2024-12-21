@@ -1,5 +1,5 @@
 ---
-title: 尹震宇个人经历
+title: 尹震宇个人简历
 publishDate: 2024-10-22
 
 ---
