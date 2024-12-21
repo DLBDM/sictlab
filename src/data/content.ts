@@ -40,19 +40,19 @@ export const homeTdk: SeoTdk = {
 }
 // SEO TDK 博客
 export const blogTdk: SeoTdk = {
-	title: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	title: '团队成员-辽宁省国产基础软硬件工控平台技术研究重点实验室',
 	description: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
 	keywords: '辽宁省国产基础软硬件工控平台技术研究重点实验室'
 }
 // SEO TDK 关于
 export const aboutTdk: SeoTdk = {
-	title: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	title: '联系我们-辽宁省国产基础软硬件工控平台技术研究重点实验室',
 	description: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
 	keywords: '辽宁省国产基础软硬件工控平台技术研究重点实验室'
 }
 // SEO TDK  项目
 export const projectTdk: SeoTdk = {
-	title: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
+	title: '团队风采-辽宁省国产基础软硬件工控平台技术研究重点实验室',
 	description: '辽宁省国产基础软硬件工控平台技术研究重点实验室',
 	keywords: '辽宁省国产基础软硬件工控平台技术研究重点实验室'
 }

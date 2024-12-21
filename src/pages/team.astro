@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 import BlogPostLayout from "../layouts/BlogPostLayout.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import CallToAction from "../components/CallToAction.astro";
-import {pageTag, pageDescription,aboutTdk} from '../data/content';
+import {pageTag, pageDescription,blogTdk} from '../data/content';
 import myPortrait from "../assets/portrait.jpg";
 
 
@@ -17,9 +17,9 @@ const yzyResume = '尹震宇，博士/研究员（三级）/博士生导师。�
 const yzyTitle = '博士/研究员(三级)/博士生导师'
 ---
 <BlogPostLayout
-	title={aboutTdk.title || ''}
-	description = {aboutTdk.description || ''}
-	keywords = {aboutTdk.keywords || ''}
+	title={blogTdk.title || ''}
+	description = {blogTdk.description || ''}
+	keywords = {blogTdk.keywords || ''}
 >
 
 	<div class="post">
